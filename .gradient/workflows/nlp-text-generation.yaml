@@ -12,7 +12,7 @@ jobs:
       repo:
         type: volume
     resources:
-      instance-type: C3
+      instance-type: M4000
   generateText:
     uses: script@v1
     with:
@@ -34,7 +34,7 @@ jobs:
         with:
           ref: demo-dataset
     resources:
-      instance-type: C5
+      instance-type: M4000
 context:
   event:
     github:
