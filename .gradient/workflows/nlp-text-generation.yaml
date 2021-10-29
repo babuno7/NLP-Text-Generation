@@ -34,7 +34,7 @@ jobs:
 
   generateText:
     resources:
-      instance-type: C8
+      instance-type: C7
     needs:
       - cloneRepo
     inputs:
